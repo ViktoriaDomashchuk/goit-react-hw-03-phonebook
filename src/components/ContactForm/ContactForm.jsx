@@ -38,6 +38,7 @@ export class ContactForm extends Component {
         onSubmit={this.submitForm}
       >
         <Form 
+          autoComplete='off'
         >
           <FormAddContacts>
             <Label htmlFor={this.nameInputId}>Name:

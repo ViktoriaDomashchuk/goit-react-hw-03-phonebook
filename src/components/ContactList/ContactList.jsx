@@ -3,6 +3,7 @@ import { List, Contact } from './ContactList.styled';
 import { ContactItems } from '../ContactItems/ContactItems';
 import { Component } from 'react';
 import { BsFillTelephoneFill } from 'react-icons/bs';
+
 export class ContactList extends Component {
     state = {
       contacts:[],
@@ -22,7 +23,6 @@ export class ContactList extends Component {
     );
   }
 }
-
 
 ContactList.propTypes = {
   items: PropTypes.string.isRequired,
